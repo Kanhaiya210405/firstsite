@@ -1,0 +1,30 @@
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.navbar .icon .logo {
+    color: #fff;
+    font-size: 24px;
+    padding: 14px 20px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.animated-image {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.5s ease-in-out;
+    margin: 20px 0;
+}
+
+.animated-image:hover {
+    transform: scale(1.1);
+}
